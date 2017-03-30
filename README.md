@@ -1,5 +1,7 @@
 # Cloud Insurance Co. - Catalog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/enterstudio/cloudco-insurance-catalog.svg)](https://greenkeeper.io/)
+
 | **master** | [![Build Status](https://travis-ci.org/IBM-Bluemix/insurance-catalog.svg?branch=master)](https://travis-ci.org/IBM-Bluemix/insurance-catalog) |
 | ----- | ----- |
 | **dev** | [![Build Status](https://travis-ci.org/IBM-Bluemix/insurance-catalog.svg?branch=dev)](https://travis-ci.org/IBM-Bluemix/insurance-catalog) |
