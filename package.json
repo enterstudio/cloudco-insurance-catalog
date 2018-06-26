@@ -18,11 +18,11 @@
     "body-parser": "1.12.x",
     "cf-deployment-tracker-client": "*",
     "cfenv": "1.0.x",
-    "cloudant": "1.6.x",
+    "cloudant": "1.9.0",
     "consolidate": "0.11.x",
     "cors": "2.5.x",
-    "express": "3.20.x",
-    "watson-developer-cloud": "1.9.x"
+    "express": "4.16.0",
+    "watson-developer-cloud": "2.31.2"
   },
   "devDependencies": {
     "async": "^1.5.2",
