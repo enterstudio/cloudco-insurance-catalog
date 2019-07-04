@@ -12,7 +12,9 @@
     "nosql"
   ],
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "1.12.x",
@@ -22,7 +24,8 @@
     "consolidate": "0.11.x",
     "cors": "2.5.x",
     "express": "3.20.x",
-    "watson-developer-cloud": "1.9.x"
+    "watson-developer-cloud": "1.9.x",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "async": "^1.5.2",
@@ -65,5 +68,6 @@
       "email": "jepeyser@us.ibm.com"
     }
   ],
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }
